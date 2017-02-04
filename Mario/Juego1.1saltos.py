@@ -135,6 +135,7 @@ def cargar_mapa(Nivel1):# creamos la funcion cargar mapa y le agregamos la varia
         MatrizMapa.append(salidaMapa[i:i+WidthMap])# (tramos) añadir datos al final del mapa con la posision deseada y su ancho
     for i in range(HeightMap):
         print MatrizMapa
+        
 def arreglo_Tiles(img):#obritne imagen y lo almacena en hoja de tiles de tamaño 29 de alto y 27 de ancho
     x=0
     y=0
